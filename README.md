@@ -5,11 +5,12 @@ or deploy the whole folder as a static site.
 
 ## What's here
 
-- `index.html` — home page: hero, Divsly, Soopr, campaign work, about, experience, contact
-- `styles.css` — all styling
-- `script.js` — mobile menu + footer year only
-- `images/` — 13 optimised JPGs picked from `Alice_Portfolio.pdf` (29 Oct 2026).
-  Tool logos and the blue background from that PDF were left out.
+- `index.html` — home page: hero, Divsly, Soopr, campaign work, gallery, about, experience, contact
+- `styles.css` — all styling, including browser/phone/poster mockups
+- `script.js` — mobile menu, footer year and scroll-reveal
+- `images/` — 14 optimised JPGs: 13 picked from `Alice_Portfolio.pdf` (29 Oct 2026)
+  plus `fun-friday-open-mic.jpg` from the first Figma file shared the same day.
+  Tool logos and the blue background from the PDF were left out.
 
 ## Add / replace an image
 
@@ -18,8 +19,9 @@ or deploy the whole folder as a static site.
    and update the matching `<img src="images/...">` in `index.html`.
 3. Keep the `alt` text describing what the image shows.
 
-Soopr still needs an image: save it as `images/soopr-1.jpg` and replace the
-placeholder block in `index.html` with an `<img>` like the Divsly one.
+Soopr is shown as a website mockup in `index.html` (no screenshot image).
+To add a real Soopr screenshot, save it as `images/soopr-1.jpg` and swap the
+mockup block for an `<img>` like the Divsly one.
 
 ## Deploy on Cloudflare Pages (Alice to do)
 
