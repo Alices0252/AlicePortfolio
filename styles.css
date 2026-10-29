@@ -129,7 +129,7 @@ p{margin:0 0 14px}
 .soopr-cards span{font-size:13px;color:var(--muted)}
 .poster-wall{position:relative;background:linear-gradient(160deg,#e9e2d2,#d9cfba);border:2px solid var(--ink);border-radius:var(--radius);padding:26px;display:grid;grid-template-columns:1.25fr .85fr;gap:18px;align-items:end;box-shadow:10px 10px 0 var(--ink)}
 .poster{margin:0}
-.poster img{border:6px solid #fff;box-shadow:0 16px 30px rgba(0,0,0,.28);width:100%}
+.poster img{border:6px solid #fff;box-shadow:0 16px 30px rgba(0,0,0,.28);width:100%;height:auto}
 .poster figcaption{font-size:13px;font-weight:600;color:#4c4638;padding-top:8px}
 .poster-main{transform:rotate(-1.2deg)}
 .poster-side{transform:rotate(1.4deg)}
