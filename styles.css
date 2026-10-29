@@ -133,9 +133,9 @@ p{margin:0 0 14px}
 .poster figcaption{font-size:13px;font-weight:600;color:#4c4638;padding-top:8px}
 .poster-main{transform:rotate(-1.2deg)}
 .poster-side{transform:rotate(1.4deg)}
-.poster-side img{aspect-ratio:4/5;object-fit:cover}
+.poster-side img{width:100%;height:auto}
 .phone-small{position:absolute;right:18px;bottom:-22px;width:112px;transform:rotate(4deg)}
-.phone-small img{aspect-ratio:9/14}
+.phone-small img{width:100%;height:auto}
 
 /* Gallery */
 .gallery-section{background:var(--cream);border-top:2px solid var(--ink);border-bottom:2px solid var(--ink)}
