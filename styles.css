@@ -30,7 +30,8 @@ p{margin:0 0 14px}
 /* Header */
 .site-header{position:sticky;top:0;z-index:10;background:rgba(16,19,26,.92);backdrop-filter:blur(10px);color:#fff;border-bottom:1px solid var(--line-dark)}
 .nav{max-width:var(--max);margin:0 auto;padding:14px 22px;display:flex;align-items:center;gap:22px}
-.logo{display:inline-flex;align-items:center;gap:5px;font-family:var(--display);font-size:28px;font-weight:900;text-decoration:none;letter-spacing:-.01em}
+.logo{display:inline-flex;align-items:center;gap:0;font-family:var(--display);font-size:28px;font-weight:900;text-decoration:none;letter-spacing:-.01em}
+.logo span{color:var(--coral)}
 .logo-mark{width:24px;height:24px;flex:none}
 .nav-toggle{display:none;margin-left:auto;background:none;border:1px solid #4a5164;color:#fff;border-radius:999px;padding:8px 14px;font:inherit;cursor:pointer}
 .nav-links{list-style:none;display:flex;gap:26px;margin:0 0 0 auto;padding:0}
